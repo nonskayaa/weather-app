@@ -1,0 +1,15 @@
+.weather_icon__container {
+  max-width: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather_icon__time {
+  font-weight: 400;
+}
+.weather_icon__image {
+  max-width: 80px;
+}

@@ -1,0 +1,21 @@
+.title {
+  font-size: 140px;
+  text-align: center;
+}
+
+.logo_icon {
+  max-width: 150px;
+  max-height: 150px;
+}
+.logo_title__container {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1280px) {
+  .title {
+    font-size: 100px;
+  }
+}

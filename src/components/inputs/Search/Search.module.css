@@ -1,0 +1,26 @@
+.search_container {
+  display: flex;
+  align-items: center;
+
+  width: 80%;
+  max-width: 1014px;
+
+  height: 60px;
+
+  background-color: white;
+  border-radius: 15px;
+  padding: 35px 15px 35px 25px;
+}
+
+.search_input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: white;
+  margin-left: 5px;
+  -webkit-box-shadow: 3px 3px 18px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 18px 5px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+}
+
