@@ -1,9 +1,13 @@
 .title {
-  font-size: 140px;
+  font-size: clamp(50px, 7vw, 120px);
   text-align: center;
+
+  color: white;
 }
 
 .logo_icon {
+  width: 25%;
+  height: 25%;
   max-width: 150px;
   max-height: 150px;
 }
@@ -12,10 +16,11 @@
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-@media (max-width: 1280px) {
-  .title {
-    font-size: 100px;
+@media (max-width: 1024px) {
+  .logo_icon{
+    display: none;
   }
 }

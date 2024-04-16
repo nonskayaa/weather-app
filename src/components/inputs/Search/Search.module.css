@@ -2,14 +2,16 @@
   display: flex;
   align-items: center;
 
-  width: 80%;
+  width: 100%;
   max-width: 1014px;
 
   height: 60px;
 
+  margin-top: 20px;
+
   background-color: white;
   border-radius: 15px;
-  padding: 35px 15px 35px 25px;
+  padding: 45px 25px 45px 25px;
 }
 
 .search_input {
@@ -20,7 +22,7 @@
   margin-left: 5px;
   -webkit-box-shadow: 3px 3px 18px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 3px 3px 18px 5px rgba(0, 0, 0, 0.15);
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
 }
 

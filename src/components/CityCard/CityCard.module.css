@@ -11,7 +11,6 @@
   border-radius: 30px;
 
   width: 100%;
-
 }
 
 .city_card__additional_info___container {
@@ -20,3 +19,13 @@
   width: 50%;
 }
 
+@media (max-width: 1024px) {
+  .city_card__container {
+    flex-direction: column;
+    padding: 15px;
+    
+  }
+  .city_card__additional_info___container {
+    width: 100%
+  }
+}

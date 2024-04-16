@@ -10,3 +10,12 @@
   -webkit-box-shadow: 3px 3px 18px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 3px 3px 18px 5px rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width: 1024px) {
+  .forecast__container {
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 30px 15px;
+
+  }
+}
