@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./LogoTitle.module.css";
 
 import union_icon from "../../assets/images/union_icon.png";
